@@ -1,0 +1,43 @@
+/* ----------
+common font 
+------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------
+   header style 
+   -------------*/
+header{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+h1{
+    font-size: 52px;
+}
+h3{
+    font-size: 24px;
+}
+.influencer-journey{
+    display: flex;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    background-color: #8E806A;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.influencer-tool img{
+    width: 590px;
+    height: 414px;
+}
+/* ----------------
+   header transition 
+   ------------------*/
+.influencer-tool:hover img{
+    transform: scale(1.1) rotate(5deg);
+    transition: transform 2s linear;
+}
+.half-width{
+    width: 50%;
+}
