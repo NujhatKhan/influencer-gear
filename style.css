@@ -3,6 +3,7 @@ common font
 ------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 /* -------------
    header style 
@@ -47,7 +48,6 @@ h3{
    popular collection style 
    ------------------------*/
 .collection-info{
-    width: 1050px;
     margin: 100px;
 }
 .collection-products{
@@ -58,6 +58,7 @@ h3{
 .collection-info h2{
     font-size: 28px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .product{
     box-shadow: 5px 5px 5px 5px grey;
@@ -83,4 +84,33 @@ h3{
 }
 .empty{
     color: rgb(153, 150, 150);
+}
+#special-link{
+    text-decoration: none;
+    color: #7c643d;
+    font-weight: 600;
+    position: relative;
+    left: 1060px;
+    margin-top: 20px;
+}
+footer{
+    background-color: rgb(4, 4, 29);
+    color: rgb(163, 158, 158);
+    text-align: center;
+    padding: 40px;
+}
+
+/*---------- 
+   extra part
+   ---------- */
+.new-sec{
+    margin: 50px;
+    width: 100%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image{
+    width: 200px;
+    height: 200px;
 }
