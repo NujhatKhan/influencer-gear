@@ -19,6 +19,9 @@ h1{
 h3{
     font-size: 24px;
 }
+.for-width{
+    max-width: 100%;
+}
 .influencer-journey{
     display: flex;
 }
@@ -89,8 +92,9 @@ h3{
     text-decoration: none;
     color: #7c643d;
     font-weight: 600;
-    position: relative;
-    left: 1060px;
+    font-size: 20px;
+     position: relative;
+    left: 1000px; 
     margin-top: 20px;
 }
 footer{
@@ -113,4 +117,21 @@ footer{
 .image{
     width: 200px;
     height: 200px;
+}
+
+/* for responsiveness */
+/* for-mobile */
+@media only screen and (max-width:688px) {
+    .main{
+        width: 100%;
+    }
+    .influencer-journey{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .collection-products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
