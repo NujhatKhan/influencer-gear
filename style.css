@@ -10,6 +10,7 @@ body{
 header{
     margin-top: 50px;
     margin-left: 40px;
+    margin-bottom: 80px;
 }
 h1{
     font-size: 52px;
@@ -40,4 +41,46 @@ h3{
 }
 .half-width{
     width: 50%;
+}
+
+/*------------------------
+   popular collection style 
+   ------------------------*/
+.collection-info{
+    width: 1050px;
+    margin: 100px;
+}
+.collection-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.collection-info h2{
+    font-size: 28px;
+    text-align: center;
+}
+.product{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 329px;
+    height: 470px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.product-image{
+    width: 300px;
+    height: 256px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-star{
+    height: 16px;
+    width: 16px;
+}
+.filled{
+    color: #FB8200;
+}
+.empty{
+    color: rgb(153, 150, 150);
 }
